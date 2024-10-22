@@ -1,4 +1,4 @@
-# chemiqle_bot
+# __chemiqle_bot__
 
 ## Описание
 
