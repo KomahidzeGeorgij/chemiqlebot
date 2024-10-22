@@ -8,7 +8,8 @@ from database import create_users_table, get_user_status, update_user_status, sa
 # Создаем экземпляр бота и диспетчера
 bot = Bot(token=config.TOKEN)
 dp = Dispatcher()
-
+veb = config.VEBINAR
+share = config.GROUPSHARE
 
 # Обработка команды /start
 @dp.message(Command("start"))
